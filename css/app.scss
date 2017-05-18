@@ -1,0 +1,69 @@
+---
+---
+
+/*
+*******
+None of these variable are being imported anywhere, they're just here for your convenience.
+*******
+*/
+html {
+	background-color: #fff;
+	color: #464646;
+
+}
+body{
+}
+.header {
+	margin: 0;
+	width: 100%;
+	border-bottom: 1px solid #f1f1f1;
+	text-align: center;
+	padding-bottom: .5em;
+	font-size: 2em;
+}
+.header a {
+	text-decoration: none;
+	color: inherit;
+}
+.Quote {
+	font-size: 3em;
+	margin: auto;
+	width: 80%;
+	text-align: center;
+	padding: 1em;
+	font-family: "Helvetica";
+}
+.Quote a {
+	text-decoration: none;
+	color: inherit;
+}
+.Quote h3 {
+	font-size: .5em;
+}
+// Some Style Variables
+$primary-color: #36465f;
+$secondary-color: #464646;
+$error: #de3535;
+$success: #d5f5d7;
+
+$max-width: 960px;
+
+// Breakpoints. Use these in your media queries.
+$babybear: 321px;
+$mamabear: 769px;
+$papabear: 1140px;
+$monsterbear: 1300px;
+
+$font-size: 16px;
+$font-family: Helvetica, sans-serif;
+$alt-font-family: monospace;
+$font-color: #353535;
+
+/* Social Icons */
+$twitter: #78cdf0 !default;
+$facebook: #537bbd !default;
+$instagram: #517fa4 !default;
+$youtube: #d34836 !default;
+$snapchat: #fffc00 !default;
+$pinterest:	#cb2027 !default;
+$google: #dd4b39 !default;
