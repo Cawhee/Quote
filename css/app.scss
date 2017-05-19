@@ -1,15 +1,8 @@
 ---
 ---
-
-/*
-*******
-None of these variable are being imported anywhere, they're just here for your convenience.
-*******
-*/
 html {
 	background-color: #fff;
 	color: #464646;
-
 }
 body{
 }
@@ -43,69 +36,46 @@ body{
 .Quote h3 {
 	font-size: .5em;
 }
+.Quote a:hover {
+	background-color: #f1f1f1;
+}
 @media (max-width: 600px) {
-  .Quote {
-	font-size: 2em;
-	margin: auto;
-	width: 80%;
-    text-align: justify;
-    -moz-text-align-last: center;
-    text-align-last: center;
-	font-family: "Helvetica";
-}
-.Quote a {
-	text-decoration: none;
-	color: inherit;
-	word-spacing:-2px;
-	hyphens: auto;
-}
-.Quote h3 {
-	font-size: .5em;
+	.Quote {
+		font-size: 1.5em;
+		margin: auto;
+		width: 90%;
+    	text-align: justify;
+    	-moz-text-align-last: center;
+    	text-align-last: center;
+		font-family: "Helvetica";
+	}
+	.Quote a {
+		text-decoration: none;
+		color: inherit;
+		word-spacing:-2px;
+		hyphens: auto;
+	}
+	.Quote h3 {
+		font-size: .5em;
+	}
 }
 @media (max-width: 400px) {
-  .Quote {
-	font-size: 1.5em;
-	margin: auto;
-	width: 90%;
-    text-align: justify;
-    -moz-text-align-last: center;
-    text-align-last: center;
-	font-family: "Helvetica";
+	.Quote {
+		font-size: 1.5em;
+		margin: auto;
+		width: 90%;
+    	text-align: justify;
+    	-moz-text-align-last: center;
+    	text-align-last: center;
+		font-family: "Helvetica";
+	}
+	.Quote a {
+		text-decoration: none;
+		color: inherit;
+		word-spacing:-2px;
+		hyphens: auto;
+	}
+	.Quote h3 {
+		font-size: .5em;
+	}
 }
-.Quote a {
-	text-decoration: none;
-	color: inherit;
-	word-spacing:-2px;
-	hyphens: auto;
-}
-.Quote h3 {
-	font-size: .5em;
-}
-}
-// Some Style Variables
-$primary-color: #36465f;
-$secondary-color: #464646;
-$error: #de3535;
-$success: #d5f5d7;
-
-$max-width: 960px;
-
-// Breakpoints. Use these in your media queries.
-$babybear: 321px;
-$mamabear: 769px;
-$papabear: 1140px;
-$monsterbear: 1300px;
-
-$font-size: 16px;
-$font-family: Helvetica, sans-serif;
-$alt-font-family: monospace;
-$font-color: #353535;
-
-/* Social Icons */
-$twitter: #78cdf0 !default;
-$facebook: #537bbd !default;
-$instagram: #517fa4 !default;
-$youtube: #d34836 !default;
-$snapchat: #fffc00 !default;
-$pinterest:	#cb2027 !default;
-$google: #dd4b39 !default;
