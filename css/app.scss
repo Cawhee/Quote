@@ -26,20 +26,61 @@ body{
 	color: inherit;
 }
 .Quote {
-	font-size: 3em;
+	font-size: 2.5em;
 	margin: auto;
 	width: 80%;
-	text-align: center;
-	padding: 1em;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
 	font-family: "Helvetica";
-	font-style: italic;
 }
 .Quote a {
 	text-decoration: none;
 	color: inherit;
+	word-spacing:-2px;
+	hyphens: auto;
 }
 .Quote h3 {
 	font-size: .5em;
+}
+@media (max-width: 600px) {
+  .Quote {
+	font-size: 2em;
+	margin: auto;
+	width: 80%;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+	font-family: "Helvetica";
+}
+.Quote a {
+	text-decoration: none;
+	color: inherit;
+	word-spacing:-2px;
+	hyphens: auto;
+}
+.Quote h3 {
+	font-size: .5em;
+}
+@media (max-width: 400px) {
+  .Quote {
+	font-size: 1.5em;
+	margin: auto;
+	width: 90%;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+	font-family: "Helvetica";
+}
+.Quote a {
+	text-decoration: none;
+	color: inherit;
+	word-spacing:-2px;
+	hyphens: auto;
+}
+.Quote h3 {
+	font-size: .5em;
+}
 }
 // Some Style Variables
 $primary-color: #36465f;

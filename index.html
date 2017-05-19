@@ -10,5 +10,5 @@ excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead
 {% include head.html %}
 
         {% for post in site.posts %}
-            <div class="Quote">“<a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>”<br><h3>-{{ post.tags }}</h3></div>
+            <div class="Quote">“<i><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>”</i><br><h3>-{{ post.tags }}</h3></div><br><hr width="10em"><br>
         {% endfor %}
